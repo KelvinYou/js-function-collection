@@ -74,34 +74,53 @@ function calculateCGPA(semesters) {
   return cgpa;
 }
 
-// Example usage:
+// usage
 const semesters = [
   {
     subjects: [
-      { name: "Subject 1", grade: "A", creditHour: "3" },
-      { name: "Subject 2", grade: "A", creditHour: "4" },
-      { name: "Subject 3", grade: "A-", creditHour: "4" },
-      { name: "Subject 4", grade: "C", creditHour: "3" },
-      { name: "Subject 5", grade: "C+", creditHour: "3" }
+      { name: "PROGRAMMING CONCEPTS AND DESIGN I", grade: "A", creditHour: "3" },
+      { name: "INTRODUCTION TO INFORMATION TECHNOLOGY", grade: "A", creditHour: "4" },
+      { name: "PRE-CALCULUS", grade: "A", creditHour: "4" },
+      { name: "ACCOUNTING METHODS I", grade: "A-", creditHour: "3" },
+      { name: "ENGLISH LANGUAGE", grade: "C+", creditHour: "3" }
     ]
   },
   {
     subjects: [
-      { name: "Subject 1", grade: "A", creditHour: "4" },
-      { name: "Subject 2", grade: "A-", creditHour: "3" },
-      { name: "Subject 3", grade: "A", creditHour: "3" },
-      { name: "Subject 4", grade: "B", creditHour: "3" },
-      { name: "Subject 5", grade: "B-", creditHour: "3" },
-      { name: "Subject 6", grade: "B", creditHour: "3" }
+      { name: "PROGRAMMING CONCEPTS AND DESIGN II", grade: "A", creditHour: "4" },
+      { name: "PRINCIPLES OF INFORMATION SYSTEMS", grade: "A", creditHour: "3" },
+      { name: "INTRODUCTORY CALCULUS", grade: "A", creditHour: "3" },
+      { name: "ACCOUNTING METHODS II", grade: "A-", creditHour: "3" },
+      { name: "ENGLISH FOR COMMUNICATION", grade: "B-", creditHour: "3" },
+      { name: "PENGAJIAN MALAYSIA 2", grade: "B", creditHour: "3" }
     ]
   },
   {
     subjects: [
-      { name: "Subject 1", grade: "A", creditHour: "3" },
-      { name: "Subject 2", grade: "A", creditHour: "3" },
-      { name: "Subject 3", grade: "C", creditHour: "3" }
+      { name: "WEB DESIGN AND DEVELOPMENT", grade: "A", creditHour: "3" },
+      { name: "STATISTICS I", grade: "A", creditHour: "3" },
+      { name: "ENGLISH FOR IELTS", grade: "C", creditHour: "3" }
     ]
-  }
+  },
+  {
+    subjects: [
+      { name: "SYSTEMS ANALYSIS AND DESIGN", grade: "A-", creditHour: "4" },
+      { name: "OBJECT-ORIENTED PROGRAMMING TECHNIQUES", grade: "A", creditHour: "4" },
+      { name: "DATABASE DEVELOPMENT AND APPLICATIONS", grade: "A", creditHour: "3" },
+      { name: "COMPUTER SYSTEMS ARCHITECTURE", grade: "A", creditHour: "4" },
+      { name: "STATISTICS II", grade: "A", creditHour: "4" }
+    ]
+  },
+  {
+    subjects: [
+      { name: "FUNDAMENTALS OF COMPUTER NETWORKS", grade: "A", creditHour: "4" },
+      { name: "OPERATING SYSTEMS", grade: "A-", creditHour: "4" },
+      { name: "ALGEBRA", grade: "A", creditHour: "3" },
+      { name: "DISCRETE MATHEMATICS", grade: "A", creditHour: "4" },
+      { name: "PUBLIC SPEAKING", grade: "A-", creditHour: "2" },
+      { name: "CIVIC CONSCIOUSNESS AND VOLUNTEERISM", grade: "A", creditHour: "2" }
+    ]
+  },
 ];
 
 calculateCGPA(semesters);
