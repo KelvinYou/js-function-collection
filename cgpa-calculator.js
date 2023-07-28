@@ -3,6 +3,7 @@ function calculateGPA(subjects) {
     throw new Error("Subjects should be an array.");
   }
 
+  // for TARUMT
   const gradePoints = {
     'A': 4.00,
     'A-': 3.75,
@@ -11,9 +12,6 @@ function calculateGPA(subjects) {
     'B-': 2.75,
     'C+': 2.5,
     'C': 2.00,
-    'C-': 1.67,
-    'D+': 1.33,
-    'D': 1.00,
     'F': 0.00,
   };
 
